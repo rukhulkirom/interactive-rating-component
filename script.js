@@ -25,7 +25,6 @@ submitBtn.addEventListener("click", () => {
 
     ratingResult.textContent = selectedRating;
   } else {
-    thankyouState.style.display = "flex";
-    ratingState.style.display = "none";
+    alert("Please select a rating before submitting");
   }
 });
